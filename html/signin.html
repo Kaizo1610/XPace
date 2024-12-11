@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Fahmi Mazlan">
+  <link rel="stylesheet" href="../styles/home.css">
+  <link rel="stylesheet" href="../styles/signin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="../images/title-bar-icon.svg">
+  <title>Sign In - The Shack For Creative Communities</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="info">
+      <img src="../images/Logo-2.svg" alt="logo" id="logo">
+      <img src="../images/obj1-new.svg" alt="obj1" id="obj1">
+      <img src="../images/obj3-new.svg" alt="obj2" id="obj2">
+      <img src="../images/obj2-new.svg" alt="obj3" id="obj3">
+      <img src="../images/obj3-new.svg" alt="obj3" id="obj4">
+      <p class="desc">Welcome Back, Creator!</p>
+      <p class="explain">Hello, Enter your details to get signed in to your XPace’s account</p>
+    </div>
+
+    <form class="data" onsubmit="validate()">
+      <h3 class="sign">Sign In</h3>
+      <input type="text" name="name" placeholder="Enter Username or Email" class="username1" id="username1" required><br>
+      <input type="password" name="name" placeholder="Enter Password" class="password1" id="password1" required><br>
+      <input type="submit" name="button" id="button1" value="Sign In">
+      <div class="query">
+        <p>Don't have an account? <a href="signup.html" class="redirect-sign-up">Sign Up</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="../scripts/uservalidation.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

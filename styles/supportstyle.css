@@ -1,0 +1,64 @@
+.main-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*
+.title {
+  outline: 1px solid #000;
+}
+*/
+
+.head {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--dark);
+  
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: var(--light-gray-2);
+}
+
+.contact-info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: center;
+  align-items:center;
+  cursor: pointer;
+}
+
+.card-icon {
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+  background: none;
+  color: #ff6348;
+
+}
+
+
+.card-hover p{
+  max-height: 50px;
+  opacity: 1;
+}
+

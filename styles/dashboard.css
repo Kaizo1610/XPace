@@ -1,0 +1,77 @@
+:root {
+  --circle: 150px;
+  --profile-desc-font-size-1: 35px;
+  --profile-desc-font-size-2: 18px;
+}
+
+.main-container {
+  margin: 50px auto;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  text-align: left;
+}
+
+.user-profile {
+  /*outline: 1px solid #000;*/
+  display: flex;
+  flex-flow: row wrap;
+  gap: 60px;
+}
+
+.profile-desc {
+  height: 100%;
+  /*outline: 1px solid #000;*/
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.username, .bio {
+  margin: 5px 0;
+  /*outline: 1px solid #000;*/
+}
+
+.username {
+  font-size: var(--profile-desc-font-size-1);
+  font-weight: 800;
+}
+
+.bio {
+  font-size: var(--profile-desc-font-size-2);
+}
+
+.user-profile-pic {
+  border-radius: 50%;
+  width: var(--circle);
+  height: var(--circle);
+}
+
+.gallery-wrapper {
+  /*display: flex;*/
+  /*justify-content: center;*/
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  /*flex-flow: row wrap;*/
+  align-items: center;
+  width: 100%;
+  margin: 30px 0;
+}
+
+/*Adjusting the size of the box according to the size of the image (max-content)*/
+.box, .video {
+  border-radius: 20px;
+  
+}
+
+.box {
+  width: max-content;
+  height: max-content;
+}
+
+.video {
+  width: max-content ;
+  height: 300px;
+}
+

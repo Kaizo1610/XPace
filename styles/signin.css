@@ -1,0 +1,239 @@
+/*
+@author Fahmi Mazlan
+@version 2.0
+@status inherited sheet
+*/
+
+.main-container {
+  flex-flow: row;
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+#logo{
+  margin-bottom: 15px;
+  width: 20%;
+}
+
+.desc{
+  font-weight: 900;
+  font-size: 55px;
+  text-align: center;
+  width: 40%;
+}
+
+.explain{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: justify;
+  color: #5F5F5F;
+  width: 50%;
+}
+
+.data{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.sign{
+  margin-bottom: 50px;
+  font-weight: 900;
+  font-size: 55px;
+}
+
+#obj1{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 10%;
+  transform: rotate(3.92deg);
+  animation: flow1 6s infinite;
+}
+
+#obj2{
+  position: absolute;
+  width: 133.41px;
+  height: 137.41px;
+  left: 500px;
+  top: 75px;
+  animation: flow2 7s infinite;
+  transform: rotate(10.28deg);
+}
+
+#obj3{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 580px;
+  top: 350px;
+  animation: flow3 8s infinite;
+  transform: rotate(-8deg);
+}
+
+#obj4{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 0;
+  top: 440px;
+  animation: flow4 7s infinite;
+  transform: rotate(25deg);
+}
+
+#obj5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 180px;
+  top: 100px;
+  animation: flow4 7s infinite;
+  transform: rotate(25deg);
+}
+
+#obj6{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 770px;
+  top: 440px;
+  animation: flow4 7s infinite;
+  transform: rotate(25deg);
+}
+
+#obj7{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 90px;
+  top: 440px;
+  animation: flow4 7s infinite;
+  transform: rotate(25deg);
+}
+
+@keyframes flow1 {
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes flow2 {
+  50% {
+    transform: translateY(12px);
+  }
+}
+
+@keyframes flow3 {
+  50% {
+    transform: translateY(14px);
+  }
+}
+
+@keyframes flow4 {
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+.password1, 
+.username1, 
+.password, 
+.confpassword,
+.username,
+.email {
+  width: 400px;
+  height: 50px;
+  padding: 0 20px;
+  border: transparent;
+  background: #EDF0F1;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.03s;
+}
+
+.password1:hover, 
+.username1:hover, 
+.password1:focus, 
+.username1:focus,
+.password:hover, 
+.confpassword:hover,
+.username:hover,
+.email:hover,
+.password:focus, 
+.confpassword:focus,
+.username:focus,
+.email:focus
+{
+  outline: 2px solid #2D2D2D;
+  /*box-shadow: 0 0 0 7px rgb(218, 218, 218);*/
+  background-color: var(--light);
+}
+
+.password1:hover::placeholder, 
+.password1:placeholder-shown,  
+.username1:hover::placeholder, 
+.username1:placeholder-shown,
+.password:hover::placeholder,
+.password:placeholder-shown, 
+.confpassword:hover::placeholder,
+.confpassword:placeholder-shown,
+.username:hover::placeholder,
+.username:placeholder-shown,
+.email:hover::placeholder,
+.email:placeholder-shown {
+  color: #2D2D2D;
+}
+
+.password1:focus::placeholder,
+.username1:focus::placeholder,
+.password:focus::placeholder, 
+.confpassword:focus::placeholder,
+.username:focus::placeholder,
+.email:focus::placeholder {
+  display: none;
+}
+
+#button1, #button{
+  width: 400px;
+  height: 50px;
+  border: transparent;
+  background: #2D2D2D;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+#button1:hover, #button:hover{
+  color: var(--light);
+  transition: 0.2s;
+  background-color: var(--light-gray-2);
+}
+
+.query {
+  width: 100%;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.redirect-sign-up, .redirect-sign-in {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 800;
+}
+
+.redirect-sign-up:hover, .redirect-sign-in:hover {
+  color: var(--light-gray);
+}

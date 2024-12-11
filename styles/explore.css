@@ -1,0 +1,144 @@
+.explore {
+  outline: inherit;
+  font-weight: 900;
+  font-size: 80px;
+  color: var(--dark);
+  margin-bottom: 0;  
+}
+
+.desc {
+  outline: inherit;  
+  color: var(--light-gray-2);
+  font-size: 30px;
+  font-weight: 500;
+  /*letter-spacing: -0.04em;*/
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.wrap-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.wrap-list {
+  width: 90%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  outline: 5px solid #000;
+  width: 60%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 2.8em;
+  font-weight: 900;
+}
+
+.title-desc {
+  width: 60%;
+  margin-top: -20px;
+  color: #5F5F5F;
+  font-size: 1.6em;
+}
+
+.mt-100{
+  margin-top:0;
+}
+
+.card{
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
+  outline: 3px solid #000;
+  transition: all .2s;
+}
+
+.card-header:first-child{
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0
+  }
+
+.card-header{
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: .625rem;
+  height: 3.5rem;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(26,54,126,0.125);
+}
+
+.media-body {
+  text-align: left;
+  font-weight: 500;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #3f6ad8;
+  border-color: #3f6ad8
+}
+
+.btn {
+  font-size: 0.8rem;
+  font-weight: 500;
+  outline: none !important;
+  position: relative;
+  transition: color 0.15s,background-color 0.15s,border-color 0.15s,box-shadow 0.15s
+}
+
+.card-body{
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  text-align: left;
+}
+
+.card-body p {
+  font-size: 15px;
+  text-align: left;
+}
+
+a {
+  color: #E91E63;
+  text-decoration: none !important;
+  background-color: transparent
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+

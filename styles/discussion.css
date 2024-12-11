@@ -1,0 +1,8 @@
+.ask-container {
+  display: flex;
+  margin: 100px auto;
+  height: 90px;
+  width: 40%;
+  outline: 1px solid #000;
+  border-radius: 10px;
+}

@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+  font-family: Inter;
+  text-align: center;
+}
+
+.main-container {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 1000;
+  text-align: center;
+  color: var(--dark);
+  margin-top: 20px;
+}
+
+.desc , .title {
+  font-weight: 500;
+  font-size: 20px ;
+  color: var(--light-gray-2);
+}
+
+p {
+  margin-top: -20px;
+  font-weight: 400;
+  font-size: 18px ;
+  color: var(black);
+}
+
+.image {
+  border-radius: 50%;
+  margin: 20px 0;
+  width: 50%;
+}
+
+.row , .row2 {
+  margin: 0 auto;
+  width: 91%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 17px;
+}
+
+.card {
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0 16px;
+  gap: 15px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.name {
+  font-weight: 700;
+}
+

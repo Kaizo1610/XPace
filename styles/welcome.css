@@ -1,0 +1,68 @@
+/*
+@author Fahmi Mazlan
+@version 1.0
+@status inherited sheet
+*/
+
+/*Welcomepage*/
+.main-container {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+}
+
+.welcome{
+  width: 483px;
+  font-weight: 900;
+  font-size: 78px;
+  color: #000000;
+}
+
+#logo3{
+
+  width: 215px;
+  height: 210px;
+
+}
+
+#obj4{
+  position: absolute;
+  width: 133.8px;
+  height: 137.41px;
+  left: 598px;
+  top: 960.58px;
+  animation: flow2 7s infinite;
+  transform: rotate(10.28deg);
+}
+
+#obj5{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1413.42px;
+  top: 565.27px;
+  animation: flow2 7s infinite;
+  transform: rotate(10.28deg);
+}
+
+#homebtn{
+  width: 526px;
+  height: 61px;
+  cursor: pointer;
+  border: transparent;
+  background: #2D2D2D;
+  border-radius: 10px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#homebtn:hover{
+  color: var(--light);
+  transition: 0.2s;
+  background-color: var(--light-gray-2);
+}

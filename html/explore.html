@@ -1,0 +1,101 @@
+<!--Landing Page (First Page)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hafiz Adlan">
+  <!--Local CSS-->
+  <link rel="stylesheet" href="../styles/home.css">
+  <link rel="stylesheet" href="../styles/explore.css">
+
+  <!--Google Fonts CDN-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!--Add icon to titlebar-->
+  <link rel="icon" href="../images/title-bar-icon.svg">
+  <!--Bootstrap CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>XPace - The Shack For Creative Communities</title>
+</head>
+<body>
+  <nav class="nav-container">
+    <div class="wrapper1">
+      <a href="../html/main(signed-in).html"><img src="../images/Logo-2.svg" alt="Logo" class="logo"></a>
+      <div class="list">
+        <a href="../html/about.html" class="link">Why XPace?</a>
+        <a href="../html/team.html" class="link">Team</a>
+        <a href="../html/explore.html" class="link">Explore</a>
+        <a href="../html/forum.html" class="link">Discussion</a>
+        <a href="../html/support.html" class="link">Help & Support</a>
+        <a href="../html/faq.html" class="link">FaQ</a>
+      </div>
+      <div class="wrapper2">
+        <input type="text" placeholder="Search" class="search-input" id="search-input" onkeyup="myFunction()">
+        <a href="../html/dashboard.html"><img src="../images/user_icon.svg" alt="" class="logo"></a>
+      </div>
+    </div>
+
+  <div class="main-container">
+    <h1 class="explore">Explore
+      <p class="desc">Here's what's popular on XPace today...</p>
+    </h1>
+
+    <ul id="myUL">
+      <div class="">
+        <div class="wrap-container">
+          <li class="wrap-list">
+            <img src="../images/wall.jpg" alt="wall" class="pic">
+            <a href="#"><p class="title">BlueWall / Wall</p></a>
+            <h2 class="title-desc">Bluewall is  a security that secure our source from any theft and threats.</h2>
+          </li>
+
+          <li class="wrap-list">
+            <img src="../images/bitcoin.jpg" alt="bitcoin" class="pic">
+            <a href="#"><p class="title">Bitcoin Server</p></a>
+            <h2 class="title-desc">Accept Bitcoin payments. Free, open-source & self-hosted, Bitcoin payment processor.</h2>
+          </li>
+
+          <li class="wrap-list">
+            <img src="../images/app.jpg" alt="app" class="pic">
+            <a href="#"><p class="title">App Design</p></a>
+            <h2 class="title-desc">Design an app what do you want. Throw out all the creativity and be the developer.</h2>
+          </li>
+
+          <li class="wrap-list">
+            <img src="../images/dish.jpg" alt="dis" class="pic">
+            <a href="#"><p class="title">Plates!</p></a>
+            <h2 class="title-desc">They're fragile!</h2>
+          </li>
+
+          <li class="wrap-list">
+            <img src="../images/doodle.jpg" alt="doodle" class="pic">
+            <a href="#"><p class="title">Doodle Your Imagination</p></a>
+            <h2 class="title-desc">Draw whats in your mind and let the world know!.</h2>
+          </li>
+        </div>
+      </div>
+    </ul>
+  </div>
+
+  <footer class="footer-container">
+    <img src="../images/Logo-2.svg" alt="Logo" class="footer-logo">
+    <div class="footer-list">
+      <a href="" class="link ft-link-color">About Us</a>
+      <a href="" class="link ft-link-color">Team</a>
+      <a href="" class="link ft-link-color">Explore</a>
+      <a href="../html/discussion.html" class="link ft-link-color">Discussion</a>
+      <a href="" class="link ft-link-color">Help & Support</a>
+    </div>
+    <p class="copyright">© 2022-2023 XPace.</p>
+  </footer>
+
+  <!--JQuery API-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="../scripts/search.js"></script>
+  <!--Bootstrap JavaScript API-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
